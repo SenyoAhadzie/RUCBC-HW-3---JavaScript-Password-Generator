@@ -108,7 +108,7 @@ function isClicked(event) {
             }
         }
         if (event.target.id === "finishSelection") {
-            debugger;
+            // debugger;
             document.querySelector("#charTypes").classList.add("hide");
             psswrdLengthNum = Math.max(Math.min(parseInt(psswrdLengthNum), 128), 8);
             if (psswrdLengthNum === NaN) {
